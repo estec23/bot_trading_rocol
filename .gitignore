@@ -1,21 +1,64 @@
-# === SEGURIDAD ===
+# === SEGURIDAD (NUNCA SUBIR) ===
 *.txt
+!requirements.txt          # ← PERMITE requirements.txt
 *.json
 *.log
 *.csv
+*.env
 key*
 token*
 api*
 secret*
-.env
+*.pem
+*.key
+*.crt
 
 # === ARCHIVOS TEMPORALES ===
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.dist
+*.build
+*.cache
+*.tmp
+*.bak
+*.swp
+*~
+
+# === ENTORNOS VIRTUALES ===
 venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === CARPETAS DE RESULTADOS Y LOGS ===
 logs/
 results*/
+data/
+output*/
+temp*/
+tmp*/
 
 # === MODELOS (solo permitimos el bueno) ===
 *.zip
 !models/MEJOR_MODELO.zip
+
+# === IDEs y editores ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === SISTEMA ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === RENDER.COM (no subir) ===
+render.yaml
+*.log
