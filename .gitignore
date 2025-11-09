@@ -1,0 +1,21 @@
+# === SEGURIDAD ===
+*.txt
+*.json
+*.log
+*.csv
+key*
+token*
+api*
+secret*
+.env
+
+# === ARCHIVOS TEMPORALES ===
+__pycache__/
+*.pyc
+venv/
+logs/
+results*/
+
+# === MODELOS (solo permitimos el bueno) ===
+*.zip
+!models/MEJOR_MODELO.zip
